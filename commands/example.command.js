@@ -17,46 +17,46 @@ const logger = main.logger;
 module.exports = {
 
     // Data object that includes all the JSON to post to the Discord command endpoint.
-    "data": {
-        "name": "hello",
-        "description": "Henlo.",
-        "default_permission": false, //By default, nobody has permission if set to false
+    data: {
+        name: "hello",
+        description: "Henlo.",
+        default_permission: false, //By default, nobody has permission if set to false
 
-        "permissions": [ 
+        permissions: [ 
 
             {
-                "id": "ROLE_ID_1",
-                "type": 1,
-                "permission": true,
+                id: "ROLE_ID_1",
+                type: 1,
+                permission: true,
             },
 
             {
-                "id": "ROLE_ID_1",
-                "type": 1,
-                "permission": true,
+                id: "ROLE_ID_1",
+                type: 1,
+                permission: true,
             }
 
         ],
 
-        "type": 2,
-        "options": [
+        type: 2,
+        options: [
 
             {
-                "name": "world",
-                "description": "Its world",
-                "type": 1,
-                "options": [],
+                name: "world",
+                description: "Its world",
+                type: 1,
+                options: [],
             }, 
 
             {
-                "name": "nausher",
-                "description": "Its me",
-                "type": 1,
-                "options": [{
-                    "name": "rao",
-                    "description": "Its me x2.",
-                    "type": 1,
-                    "required": false,
+                name: "nausher",
+                description: "Its me",
+                type: 1,
+                options: [{
+                    name: "rao",
+                    description: "Its me x2.",
+                    type: 1,
+                    required: false,
                 }],
             },
 
